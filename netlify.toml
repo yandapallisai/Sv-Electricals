@@ -1,8 +1,12 @@
 [build]
   command = "npm run build"
-  publish = "build"  # Change this to 'dist' or 'out' if you use Vue or Next.js
+  publish = "dist"
 
+[dev]
+  command = "npm run dev"
+  port = 8888
 
-
-  [plugins.inputs]
-  paths = ["node_modules/.cache", ".next", "build"]
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
