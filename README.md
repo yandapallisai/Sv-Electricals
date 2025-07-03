@@ -1,4 +1,4 @@
-# PowerPro Electric - Professional Electrician Website
+# SV Electricals - Professional Electrician Website
 
 A modern, responsive website for an electrician business built with React. This website showcases professional electrical services and provides an excellent user experience for potential clients.
 
