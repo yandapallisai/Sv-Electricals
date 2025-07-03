@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"  # Change this to 'dist' or 'out' if you use Vue or Next.js
+
+[[plugins]]
+  package = "@netlify/plugin-cache"
+
+  [plugins.inputs]
+  paths = ["node_modules/.cache", ".next", "build"]
